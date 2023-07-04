@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montagu+Slab:opsz,wght@16..144,100&display=swap');
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .container-menu {
+    width: 100%;
+    height: 100%;
+    background: black;
+  }
+  
+  .menu {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px #BF8343;
+    backdrop-filter: blur(8px);
+    background-color: rgba(128, 128, 128, 0.276);
+  }
+  
+  #logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+  }
+  
+  .container-link {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #borda {
+    border-right: solid 3px #BF8343;
+    padding: 1%;
+  }
+  
+  .link-menu {
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+  }
+  
+  .container-link :hover{
+    /* font-size: 4vh; */
+    /*-webkit-text-stroke: 0.2px #BF8343;*/
+    transition-timing-function: ease-in-out;
+    color: #cf781b;
+  }
+  
+  #user img {
+    border-radius: 50%;
+  }
+  
+  .profile-pic {
+    position: relative;
+  }
+  
+  .profile-pic:hover:after {
+    content: "Trocar imagem";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  
+  
+  /* Adicione estas regras de estilo para tornar a imagem redonda e definir a largura e altura */
+  #user {
+    width: 15%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Defina a largura e altura da imagem */
+  #user img {
+    width: 50%;
+    height: 150%;
+  }
+  #user {
+    position: relative;
+  }
+  
+  
+  #change-image-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    margin-top: 10px; /* adicione um espaçamento de 10 pixels entre a imagem e o botão */
+  }
+  
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer {
+    background-color: #f5f5f5;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 0.8em;
+    background-color: black;
+  border-top: solid 1px #cf781b;
+  }
+  
+  
+  
+  
+  

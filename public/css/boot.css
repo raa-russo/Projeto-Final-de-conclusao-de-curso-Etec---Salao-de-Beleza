@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montagu+Slab:opsz,wght@16..144,100&display=swap');
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.container-menu {
+    width: 100%;
+    height: 100%;
+    
+  
+}
+
+
+
+.menu {
+  
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px #BF8343;
+    backdrop-filter: blur(8px); /* adiciona o efeito de desfoque */
+    background-color: rgba(128, 128, 128, 0.276);
+}
+
+#logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+}
+
+.container-link {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+
+#borda {
+    border-right: solid 3px #BF8343;
+    padding: 1%;
+}
+
+.link-menu {
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+    
+}
+
+.container-link :hover{
+    /* font-size: 4vh; */
+    /*-webkit-text-stroke: 0.2px #BF8343;*/
+    transition-timing-function: ease-in-out;
+    color: #cf781b;
+}
+
+/* fim do menu*/
+
+/* chatboot */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+   
+}
+
+.container-chat {
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+#chat-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0f0f0f;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+#chat-log {
+    margin-bottom: 10px;
+    
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.user-message {
+    background-color: #cce6ff;
+}
+
+.chatbot-message {
+    background-color: #f0f0f0;
+    text-align: right;
+   
+}
+
+#user-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #0f0f0f;
+}
+
+#send-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

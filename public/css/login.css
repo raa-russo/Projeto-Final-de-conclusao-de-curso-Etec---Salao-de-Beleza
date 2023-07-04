@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#teste {
+background-color: black;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#container-principal {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #302E2E 99.99%, rgba(255, 255, 255, 0) 100%);
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+#primeiro {
+    width: 100%;
+    
+}
+
+#segundo {
+    width: 100%;
+}
+
+#container-ponta-esquerda {
+    width: 40vw;
+    height: 80vh;
+    
+}
+
+.linha {
+    height: 60vh;
+    margin-left: 3%;
+}
+
+#container-central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 80vh;
+    
+
+}
+
+#container-paragrafos{
+    width: 70%;
+  
+}
+
+#paragrafo-1{
+font-family: 'Londrina Solid';
+font-style: normal;
+font-weight: 400;
+font-size: 6.6vh;
+color: #657C95;
+
+}
+
+#paragrafo-2{
+font-family: 'Londrina Solid';
+font-style: normal;
+font-weight: 400;
+font-size: 4.1vh;
+color: #FFFFFF;
+}
+
+#paragrafo-3{
+font-family: 'Londrina Solid';
+font-style: normal;
+font-weight: 400;
+font-size: 3.6vh;
+color: #F19A7B;
+
+}
+
+#container-ponta-direita{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30vw;
+height: 80vh;
+
+    
+}
+
+#container-flutuante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(232, 216, 207, 0.26);
+    border-radius: 10px;
+    width: 20vw;
+    height: 70vh;
+    
+}
+
+#paragrafo-4{
+font-family: 'Inter';
+font-style: normal;
+margin-top: 15%;
+font-weight: 400;
+font-size: 4.0vh;
+color: #FFFFFF;
+}
+
+#paragrafo-5 {
+margin-top: 7%;
+margin-bottom: 13%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 3.0vh;
+color: #FFFFFF;
+}
+
+
+
+#baixo-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+#botao-entrar{
+    width: 50%;
+border: solid 0px;
+border-radius: 5px;
+background: #C5203C;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 3.2vh;
+color: rgba(255, 255, 255, 0.47);
+margin: 6%;
+}
+
+#paragrafo-6{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 2.8vh;
+color: rgba(255, 255, 255, 0.47);
+margin-bottom: 4%;
+}
+#esqueceu{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 2.8vh;
+color: rgba(255, 255, 255, 0.47);
+text-decoration: none;
+margin: 4%;
+}
+
+#cadastro{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 2.8vh;
+color: rgba(255, 255, 255, 0.47);
+text-decoration: none;
+margin-bottom: 4%;
+}

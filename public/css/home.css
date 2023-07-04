@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montagu+Slab:opsz,wght@16..144,100&display=swap');
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container-menu {
+    width: 100%;
+    height: 100%;
+    background: black;
+    background-image: url(../imagens/13.jpg);
+    background-size: 100% 100%;
+    
+  
+}
+
+.menu {
+  
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px #BF8343;
+    backdrop-filter: blur(8px); /* adiciona o efeito de desfoque */
+    background-color: rgba(0,0,0,0.55);
+    
+
+}
+
+#logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+}
+
+.container-link {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+    
+}
+
+#borda {
+    border-right: solid 3px #BF8343;
+    padding: 1%;
+}
+
+.link-menu {
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+    
+}
+
+.container-link :hover{
+    /* font-size: 4vh; */
+    /*-webkit-text-stroke: 0.2px #BF8343;*/
+    transition-timing-function: ease-in-out;
+    color: #cf781b;
+}
+
+/* fim do menu*/
+
+.conteudo-1 {
+    height: 100vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#imagem-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    line-height: 3vw;
+    margin-left: 3%;
+    
+ 
+}
+
+#saiba-mais{
+    width: 50%;
+    font-size: 1.4vw;
+    border: solid 2px #BF8343;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 10%;
+
+}
+
+
+
+/*animação do link*/
+
+#saiba-mais {
+    animation-name: saiba-mais;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes saiba-mais {
+    0% {
+        background-color: black;
+    }
+
+
+
+    30% {
+        background-color: rgba(0, 0, 0, 0.712);
+            }
+            
+
+    70% {
+        background-color: rgba(0, 0, 0, 0.384);
+            }
+
+    100% {
+        background-color: #BF8343;
+        border: solid 2px white;
+
+    }
+}
+
+/*fim da animção*/
+
+
+#imagem-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 60%;
+    height: 80%;
+    margin-right: 5%;
+    
+
+}
+
+#imagem-2 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#imagem-2 a span {
+    margin-top: 5px;
+}
+
+#paragrafo-1 {
+        font-family:'Courier New', Courier, monospace;
+        color: white;
+        font-style: normal;
+        font-size: 1.4vw;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: nome 5s steps(60), barra 1000ms steps(2) infinite normal;
+        border-right: 3px solid black;
+      }
+      @keyframes nome {
+        from {
+          width: 0%;
+        }
+        to {
+          width: 70%;
+        }
+      }
+      @keyframes barra {
+        from {
+          border-color: #BF8343;
+        }
+        to {
+          border-color: transparent;
+        }
+      }
+
+
+#paragrafo-2 {
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.container-conteudo-2 {
+    display: flex;
+    height: 100vh;
+    background-image: url(../imagens/7.png);
+    background-size: 100% 100%;
+    background-color: white;
+
+    
+}
+
+#cor {
+    color: #BF8343;
+}
+
+#paragrafo-3{
+font-size: 3vw;
+margin-left: 5%;
+color: black;
+}
+
+.parte-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+
+    
+}
+
+.link {
+    width: 50%;
+    border: solid 1px #BF8343;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.container-conteudo-3 {
+    display: flex;
+    height: 100vh;
+    background-color: black;
+   background-image: url(../imagens/imagem-cliente-3.png);
+   background-size: 100% 100%;
+}
+
+#paragrafo-conteudo-3{
+    font-size: 1.2vw;
+    
+}
+
+.cliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    line-height: 5vh;
+    margin-left: 20px;
+}
+
+.link-cliente {
+    width: 50%;
+    border: solid 1px #BF8343;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    
+
+}
+
+.titulo {
+    font-size: 4vw;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #BF8343;
+}
+
+.container-conteudo-4 {
+    height: 100vh;
+    background-color: white;
+    background-image: url(../imagens/fundo-empresa.png);
+    background-size: 100% 100%;
+}
+
+.empresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    line-height: 5vh;
+    margin-left: 20px;
+    
+}
+
+#link-empresa {
+    width: 50%;
+    border: solid 1px #BF8343;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    
+
+}
+
+#paragrafo-4 {
+    color: black;
+}
+
+.container-conteudo-5 {
+    background-color: black;
+    height: 100vh;
+    background-image: url(../imagens/22.png);
+    background-size: 100% 100%;
+}
+
+#raycuts {
+    font-size: 3.5vw;
+    color: white;
+    animation-name: titulo;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes titulo {
+    0% {
+        color: #BF8343;
+        
+    }
+
+    100% {
+        color: white;
+        font-size: 5vw;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #BF8343;
+        
+    }
+
+  
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 5vh;
+    width: 50%;
+    height: 100vh;
+}
+
+#paragrafo-5{
+    font-size: 1.2vw;
+    margin-left: 4%;
+}
+
+#botao {
+    display: flex;
+    width: 20%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid 2px #BF8343;
+    border-radius: 10px;
+    font-size: 1.2vw;
+}
+
+.rodape {
+background-color: white;
+width: 100%;
+height: 20vh;
+display: flex;
+}
+
+
+.link-1 {
+width: 25%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+line-height: 5vh;
+}
+
+#cor-2 {
+    color: black;
+}
